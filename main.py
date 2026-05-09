@@ -23,9 +23,6 @@ class MainWindow(QMainWindow):
         with open("stylesheet.qss", "r") as stylesheet:
             self.setStyleSheet(stylesheet.read())
 
-        # states
-        self.playState = False
-
         # buttons
         self.playButton = QPushButton()
         self.playButton.setFixedSize(QSize(64, 64))
