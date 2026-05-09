@@ -1,0 +1,37 @@
+QMainWindow {
+    background-color: #121212;               
+}
+
+QPushButton {
+    background-color: transparent;
+    color: #e0e0e0;
+    padding: 5px 15px;
+}
+QPushButton:hover {
+    background-color: #3e3e3e;
+    border: 1px solid #1db845;
+}
+
+QPushButton:pressed {
+    background-color: #f00;
+}
+
+QPushButton#playButton {
+    background-color: #1db845;
+}
+
+QProgressBar {
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #222;
+    text-align: center;
+    color: #bbb;
+    font-weight: bold;
+    height: 16px;
+}
+
+QProgressBar::chunk {
+    background-color: #1db845;
+    width: 10px;
+    border-radius: 8px;
+}
