@@ -20,18 +20,43 @@ QPushButton#playButton {
     background-color: #1db845;
 }
 
-QProgressBar {
-    border: 2px solid #333;
-    border-radius: 5px;
-    background-color: #222;
-    text-align: center;
-    color: #bbb;
-    font-weight: bold;
+QSlider {
     height: 16px;
 }
 
-QProgressBar::chunk {
-    background-color: #1db845;
-    width: 10px;
-    border-radius: 8px;
+QSlider::groove:horizontal {
+    border: 1px solid #323232;
+    height: 24px;
+    background: #1e1e1e;
+    margin: -12px 0;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #f3a76b, stop:1 #b65f26);
+    border: 1px solid #d8d2c4;
+    width: 24px;
+    height: 24px;
+    margin: -7px 0;
+    border-radius: 9px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #3a3227, stop:1 #3a2a1f);
+    border: 1px solid #d8d2c4;
+}
+
+QSlider::handle:horizontal:pressed {
+    background: #b65f26;
+    border: 1px solid #d8d2c4;
+}
+
+QSlider::add-page:horizontal {
+    background: #333;
+    border-radius: 3px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #b65f26;
+    border-radius: 3px;
 }
