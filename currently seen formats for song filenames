@@ -1,0 +1,22 @@
+%title% | %other information% | %artist[s]% [%youtube id%].mp3
+%artist% - %title% [%youtube id%].mp3
+%other information% by %artist% - "%title%" %other information% [%youtube id%].mp3
+%title% [%youtube id%].mp3
+%title% | %other information% [%youtube id%].mp3
+%other information% [%youtube id%].mp3
+%other information% "%title%" (feat %artist[s]%) [%youtube id%].mp3
+%title% | %artist% [%youtube id%].mp3
+%other information% "%title%" %other information% - %title% [%youtube id%].mp3
+%title% - %other information% [%youtube id%].mp3
+%title% (%other information%) [%youtube id%].mp3
+%artist% - %title% (Ft. %other artist[s]%) [%album%] [%youtube id%].mp3
+%album%: %title% [%youtube id%].mp3
+%artist% - %title% %other information% [%youtube id%].mp3
+%title% - %album% [%youtube id%].mp3
+[%album%] - %artist% - %title% [%other information%] [%youtube id%].mp3
+%album%: %title% [Ft.%artist[s]%] [%youtube id%].mp3
+" %title% " // %other information% // by %artist% [%youtube id%].mp3
+%other information% | "%title%" feat. %artist[s]% [%youtube id%].mp3
+
+# POSSIBLE GENERIC FOR DOWNLOADER
+%video title%; %channel downloaded from%.mp3
